@@ -1,0 +1,141 @@
+YEAR,CRIME,TYPE,AMOUNT
+1996,Violent Crime,Murder,19645
+1996,Violent Crime,Rape (Leg),96252
+1996,Violent Crime,Robbery,535594
+1996,Violent Crime,Aggravated Assault,1037049
+1996,Property Crime,Burglary,2506400
+1996,Property Crime,Larceny-Theft,7904685
+1996,Property Crime,Motor Vehicle Theft,1394238
+1997,Violent Crime,Murder,18208
+1997,Violent Crime,Rape (Leg),96153
+1997,Violent Crime,Robbery,498534
+1997,Violent Crime,Aggravated Assault,1023201
+1997,Property Crime,Burglary,2460526
+1997,Property Crime,Larceny-Theft,7743760
+1997,Property Crime,Motor Vehicle Theft,1354189
+1998,Violent Crime,Murder,16974
+1998,Violent Crime,Rape (Leg),93144
+1998,Violent Crime,Robbery,447186
+1998,Violent Crime,Aggravated Assault,976583
+1998,Property Crime,Burglary,2332735
+1998,Property Crime,Larceny-Theft,7376311
+1998,Property Crime,Motor Vehicle Theft,1242781
+1999,Violent Crime,Murder,15522
+1999,Violent Crime,Rape (Leg),89411
+1999,Violent Crime,Robbery,409371
+1999,Violent Crime,Aggravated Assault,911740
+1999,Property Crime,Burglary,2100739
+1999,Property Crime,Larceny-Theft,6955520
+1999,Property Crime,Motor Vehicle Theft,1152075
+2000,Violent Crime,Murder,15586
+2000,Violent Crime,Rape (Leg),90178
+2000,Violent Crime,Robbery,408016
+2000,Violent Crime,Aggravated Assault,911706
+2000,Property Crime,Burglary,2050992
+2000,Property Crime,Larceny-Theft,6971590
+2000,Property Crime,Motor Vehicle Theft,1160002
+2001,Violent Crime,Murder,16037
+2001,Violent Crime,Rape (Leg),90863
+2001,Violent Crime,Robbery,423557
+2001,Violent Crime,Aggravated Assault,909023
+2001,Property Crime,Burglary,2116531
+2001,Property Crime,Larceny-Theft,7092267
+2001,Property Crime,Motor Vehicle Theft,1228391
+2002,Violent Crime,Murder,16229
+2002,Violent Crime,Rape (Leg),95235
+2002,Violent Crime,Robbery,420806
+2002,Violent Crime,Aggravated Assault,891407
+2002,Property Crime,Burglary,2151252
+2002,Property Crime,Larceny-Theft,7057379
+2002,Property Crime,Motor Vehicle Theft,1246646
+2003,Violent Crime,Murder,16528
+2003,Violent Crime,Rape (Leg),93883
+2003,Violent Crime,Robbery,414235
+2003,Violent Crime,Aggravated Assault,859030
+2003,Property Crime,Burglary,2154834
+2003,Property Crime,Larceny-Theft,7026802
+2003,Property Crime,Motor Vehicle Theft,1261226
+2004,Violent Crime,Murder,16148
+2004,Violent Crime,Rape (Leg),95089
+2004,Violent Crime,Robbery,401470
+2004,Violent Crime,Aggravated Assault,847381
+2004,Property Crime,Burglary,2144446
+2004,Property Crime,Larceny-Theft,6937089
+2004,Property Crime,Motor Vehicle Theft,1237851
+2005,Violent Crime,Murder,16740
+2005,Violent Crime,Rape (Leg),94347
+2005,Violent Crime,Robbery,417438
+2005,Violent Crime,Aggravated Assault,862220
+2005,Property Crime,Burglary,2155448
+2005,Property Crime,Larceny-Theft,6783447
+2005,Property Crime,Motor Vehicle Theft,1235859
+2006,Violent Crime,Murder,17309
+2006,Violent Crime,Rape (Leg),94472
+2006,Violent Crime,Robbery,449246
+2006,Violent Crime,Aggravated Assault,874096
+2006,Property Crime,Burglary,2194993
+2006,Property Crime,Larceny-Theft,6626363
+2006,Property Crime,Motor Vehicle Theft,1198245
+2007,Violent Crime,Murder,17128
+2007,Violent Crime,Rape (Leg),92160
+2007,Violent Crime,Robbery,447324
+2007,Violent Crime,Aggravated Assault,866358
+2007,Property Crime,Burglary,2190198
+2007,Property Crime,Larceny-Theft,6591542
+2007,Property Crime,Motor Vehicle Theft,1100472
+2008,Violent Crime,Murder,16465
+2008,Violent Crime,Rape (Leg),90750
+2008,Violent Crime,Robbery,443563
+2008,Violent Crime,Aggravated Assault,843683
+2008,Property Crime,Burglary,2228887
+2008,Property Crime,Larceny-Theft,6586206
+2008,Property Crime,Motor Vehicle Theft,959059
+2009,Violent Crime,Murder,15399
+2009,Violent Crime,Rape (Leg),89241
+2009,Violent Crime,Robbery,408742
+2009,Violent Crime,Aggravated Assault,812514
+2009,Property Crime,Burglary,2203313
+2009,Property Crime,Larceny-Theft,6338095
+2009,Property Crime,Motor Vehicle Theft,795652
+2010,Violent Crime,Murder,14722
+2010,Violent Crime,Rape (Leg),85593
+2010,Violent Crime,Robbery,369089
+2010,Violent Crime,Aggravated Assault,781844
+2010,Property Crime,Burglary,2168459
+2010,Property Crime,Larceny-Theft,6204601
+2010,Property Crime,Motor Vehicle Theft,739565
+2011,Violent Crime,Murder,14661
+2011,Violent Crime,Rape (Leg),84175
+2011,Violent Crime,Robbery,354746
+2011,Violent Crime,Aggravated Assault,752423
+2011,Property Crime,Burglary,2185140
+2011,Property Crime,Larceny-Theft,6151095
+2011,Property Crime,Motor Vehicle Theft,716508
+2012,Violent Crime,Murder,14856
+2012,Violent Crime,Rape (Leg),85141
+2012,Violent Crime,Robbery,355051
+2012,Violent Crime,Aggravated Assault,762009
+2012,Property Crime,Burglary,2109932
+2012,Property Crime,Larceny-Theft,6168874
+2012,Property Crime,Motor Vehicle Theft,723186
+2013,Violent Crime,Murder,14319
+2013,Violent Crime,Rape (Leg),82109
+2013,Violent Crime,Robbery,345093
+2013,Violent Crime,Aggravated Assault,726777
+2013,Property Crime,Burglary,1932139
+2013,Property Crime,Larceny-Theft,6019465
+2013,Property Crime,Motor Vehicle Theft,700288
+2014,Violent Crime,Murder,14164
+2014,Violent Crime,Rape (Leg),84864
+2014,Violent Crime,Robbery,322905
+2014,Violent Crime,Aggravated Assault,731089
+2014,Property Crime,Burglary,1713153
+2014,Property Crime,Larceny-Theft,5809054
+2014,Property Crime,Motor Vehicle Theft,686803
+2015,Violent Crime,Murder,15696
+2015,Violent Crime,Rape (Leg),90185
+2015,Violent Crime,Robbery,327374
+2015,Violent Crime,Aggravated Assault,764449
+2015,Property Crime,Burglary,1579527
+2015,Property Crime,Larceny-Theft,5706346
+2015,Property Crime,Motor Vehicle Theft,707758
