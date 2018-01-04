@@ -7,19 +7,27 @@ CreateGGBarPlot <- function(syear,eyear,var,dat){
   XLab = "Year"
   YLab = "Number of Records"
   LegendTitle = "Type of Crime"
+  
+  dat = dat[dat$YEAR >= as.numeric(syear) & dat$YEAR <= as.numeric(eyear),]
+  dat = data.table::melt(dat, "YEAR" , c("VC", "PC"))
+  dat$variable = ifelse(dat$variable == "VC", "Violent Crime", "Property Crime")
   #------------- SET LABELS IN PLOTS -------------#
   
   #CHECK IF THE USER SELECTS NO CRIMES FOR DISPLAY. THE DEFAULT IS FOR BOTH (VIOLENT CRIME & PROPERTY CRIME)TO DISPLAY
   if(is.null(var)){
-    var <- c(3,15)
+    var <- c("VC","PC")
   }
   #------------- BEGIN DATA SELECTION -------------#
   
   #VIOLENT CRIMES AND PROPERTY CRIMES
   if (length(var) == 2){
-    df.m <- melt(dat[syear:eyear,c(1,15,3)],id.vars='YEAR')
-    ggplot(df.m, aes(YEAR, value)) +   
-      geom_bar(aes(fill = variable), position = "dodge", stat="identity") + 
+    ggplot(data = dat) +   
+      geom_bar(mapping = aes(x = YEAR, 
+                             y = value, 
+                             group = variable, 
+                             fill = variable), 
+               position = "dodge", 
+               stat="identity") + 
       scale_x_continuous(breaks=seq(1996,2015,1)) + 
       scale_y_continuous(labels = scales::comma) +
       labs(x = XLab, y = YLab) +
@@ -29,10 +37,14 @@ CreateGGBarPlot <- function(syear,eyear,var,dat){
                           labels = Header)
   }
   #vIOLENT CRIME
-  else if (var == 3){
-    df.m <- melt(dat[syear:eyear,c(1,3)],id.vars='YEAR')
-    ggplot(df.m, aes(YEAR, value)) +   
-      geom_bar(aes(fill = variable), position = "dodge", stat="identity") + 
+  else if (var == "VC"){
+    ggplot(data = subset(dat, variable == "Violent Crime")) +   
+      geom_bar(mapping = aes(x = YEAR, 
+                             y = value, 
+                             group = variable, 
+                             fill = variable), 
+               position = "dodge", 
+               stat="identity") + 
       scale_x_continuous(breaks=seq(1996,2015,1)) + 
       scale_y_continuous(labels = scales::comma) +
       labs(x = XLab, y = YLab) +
@@ -44,10 +56,14 @@ CreateGGBarPlot <- function(syear,eyear,var,dat){
     
   }
   #PROPERTY CRIME
-  else if (var == 15){
-    df.m <- melt(dat[syear:eyear,c(1,15)],id.vars='YEAR')
-    ggplot(df.m, aes(YEAR, value)) +   
-      geom_bar(aes(fill = variable), position = "dodge", stat="identity") + 
+  else if (var == "PC"){
+    ggplot(data = subset(dat, variable == "Property Crime")) +   
+      geom_bar(mapping = aes(x = YEAR, 
+                             y = value, 
+                             group = variable, 
+                             fill = variable), 
+               position = "dodge", 
+               stat="identity") + 
       scale_x_continuous(breaks=seq(1996,2015,1)) +
       scale_y_continuous(labels = scales::comma) +
       labs(x = XLab, y = YLab) +
