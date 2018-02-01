@@ -25,6 +25,8 @@ StatePop <- read.csv("data/StatePop.csv")
 # DEFINE USER INTERFACE
 shinyUI(fluidPage(
   
+  tags$head(includeScript("google-analytics.js")),
+  
   #TITLE OF APPLICATION
   titlePanel("National Overview: Crime in the U.S."),
   
